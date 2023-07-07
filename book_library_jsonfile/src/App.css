@@ -1,0 +1,102 @@
+ * {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+ }
+
+ .books-container {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 1rem;
+ }
+
+ .book-card {
+   width: 15rem;
+   border: 1px solid gray;
+   border-radius: 1rem;
+   overflow: hidden;
+   padding-bottom: 0.5rem;
+ }
+
+ .book-card *:not(img) {
+   margin-left: 0.5rem;
+   margin-right: 0.5rem;
+ }
+
+ .book-card * {
+   text-align: center;
+ }
+
+ .book-card img {
+   width: 100%;
+   margin-bottom: 1rem;
+ }
+
+ .book-author {
+   margin-bottom: 0.5rem;
+   font-weight: 100;
+   color: rgb(72, 72, 72);
+ }
+
+ .book-category {
+   color: gray;
+   margin-bottom: 0.75rem;
+ }
+
+ .book-description {
+   margin-bottom: 2rem;
+ }
+
+ .book-price-rating {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ /* header {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 3rem 3rem 0;
+   background-color: rgb(58, 87, 148);
+   padding: 2rem;
+ } */
+
+ /* #search-fields {
+   display: flex;
+   align-items: center;
+   gap: 3rem;
+ } */
+
+ /* #search-fields input {
+   background-color: rgb(119, 120, 135);
+   padding: 1rem;
+   width: 15rem;
+   color: rgb(236, 235, 232);
+   font-size: 1.25rem;
+   text-align: center;
+   caret-color: transparent;
+ } */
+
+ /* #search-fields input::placeholder {
+   text-align: center;
+   color: white;
+ } */
+
+ /* #search-btn {
+   padding: 0.75rem;
+   margin-top: 1rem;
+   width: 9rem;
+   background-color: bisque;
+   font-size: 1.25rem;
+ } */
+
+ /* label {
+   color: white;
+ }
+
+ #sort {
+   padding: 0.25rem;
+ } */
